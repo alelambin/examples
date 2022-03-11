@@ -1,7 +1,7 @@
 SOURCE = ./src
 
 all: main.o node.o bor.o
-	g++ main.o node.o bor.o -o lb5
+	g++ main.o node.o bor.o -o program
 
 test: mainTest.o node.o bor.o tests.o
 	g++ mainTest.o node.o bor.o tests.o -o test

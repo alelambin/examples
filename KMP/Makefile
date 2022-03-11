@@ -1,7 +1,7 @@
 SOURCE = ./src
 
 all: main.o kmp.o
-	g++ main.o kmp.o -o lb4
+	g++ main.o kmp.o -o program
 
 test: mainTest.o kmp.o tests.o
 	g++ mainTest.o kmp.o tests.o -o test

@@ -1,7 +1,7 @@
 SOURCE = ./src
 
 all: main.o node.o graph.o
-	g++ main.o node.o graph.o -o lb3
+	g++ main.o node.o graph.o -o program
 
 test: mainTest.o tests.o node.o graph.o
 	g++ mainTest.o tests.o node.o graph.o -o test

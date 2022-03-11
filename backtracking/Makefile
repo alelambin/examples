@@ -1,7 +1,7 @@
 SOURCE = ./src
 
 all: main.o backtracking.o
-	g++ main.o backtracking.o -o lb1
+	g++ main.o backtracking.o -o program
 
 test: mainTest.o backtracking.o tests.o
 	g++ mainTest.o backtracking.o tests.o -o test

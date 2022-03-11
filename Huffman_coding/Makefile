@@ -1,5 +1,5 @@
 all: main.o node.o tree.o
-	g++ -std=c++17 main.o node.o tree.o -o cw
+	g++ -std=c++17 main.o node.o tree.o -o program
 
 main.o: source/main.cpp source/tree.h
 	g++ -std=c++17 -c source/main.cpp
