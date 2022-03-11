@@ -1,0 +1,9 @@
+a g
+a b 1
+a c 2
+a g 15
+b c 2
+b d 3
+c e 3
+e d 4
+e g 5
