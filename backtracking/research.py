@@ -6,7 +6,7 @@ def main():
 	simple = [3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
 	res = []
 	for num in simple:
-		programResult = int(subprocess.check_output(['./lb1', '-c'], input=str(num), universal_newlines = True))
+		programResult = int(subprocess.check_output(['./program', '-c'], input=str(num), universal_newlines = True))
 		res.append(programResult)
 		#print('{} - {}'.format(num, programResult))
 	pyplot.xlabel('The operations number')
